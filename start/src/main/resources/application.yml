@@ -1,0 +1,6 @@
+server:
+  port: 8000
+
+spring:
+  datasource:
+    schema: classpath:db/schema.sql
