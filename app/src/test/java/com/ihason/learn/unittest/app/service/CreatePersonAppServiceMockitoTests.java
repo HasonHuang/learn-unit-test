@@ -14,8 +14,13 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.verify;
 
+/**
+ * 使用 Mockito 套件进行单元测试
+ *
+ * @author Hason
+ */
 @ExtendWith(MockitoExtension.class)
-public class PersonAppServiceTests {
+public class CreatePersonAppServiceMockitoTests {
 
     @InjectMocks
     private PersonAppService service;
